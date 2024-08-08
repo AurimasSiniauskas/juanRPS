@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Rock paper scissors game!</title>
 </head>
 <body>
     <div class="main">
-        <h1>ROCK PAPER SCISSORS!!!</h1>
+        <div class="header">
+            <h1>ROCK PAPER SCISSORS!!!</h1>
+        </div>
         <div class="gameContainer">
-            <h2>Chose your weapon.</h2>
-            <div class="vidas">
-                <div class="user">Player's lives: </div>
-                <div class="computador">Enemy's lives: </div>
+            <div class="status">
+                <div class="user">
+                    <p>Player</p>
+                    <div class="playerLives">
+                        <img src="img/redHeart.svg" height="20px" alt="8bit heart.">
+                        <img src="img/redHeart.svg" height="20px" alt="8bit heart.">
+                        <img src="img/redHeart.svg" height="20px" alt="8bit heart.">
+                        <img src="img/redHeart.svg" height="20px" alt="8bit heart.">
+                        <img src="img/redHeart.svg" height="20px" alt="8bit heart.">
+                    </div>
+                    <div class="weaponChosen"></div>
+                </div>
+                <div class="computador">
+                    <p>Computer</p>
+                    <div class="lives">
+                        <img class="svgHeartOneC" src="img/redHeart.svg" height="20px" alt="8bit heart.">
+                        <img class="svgHeartTwoC" src="img/redHeart.svg" height="20px" alt="8bit heart.">
+                        <img class="svgHeartThreeC" src="img/redHeart.svg" height="20px" alt="8bit heart.">
+                        <img class="svgHeartFourC" src="img/redHeart.svg" height="20px" alt="8bit heart.">
+                        <img class="svgHeartFiveC" src="img/redHeart.svg" height="20px" alt="8bit heart.">
+                    </div>
+                    <div class="weaponChosen"></div>
+                </div>
             </div>
             <div class="armeria">
-                <div class="piedra"><img src="img/duroComoRoca.svg" alt="a rock" height="80px"></div>
-                <div class="papel"><img src="img/paper.svg" alt="a roll of paper" height="80px"></div>
-                <div class="tijera"><img src="img/scissors.svg" alt="scissors" height="80px"></div>
+                <div class="piedra"><img src="img/duroComoRoca.svg" alt="a rock" height="120px"></div>
+                <div class="papel"><img src="img/paper.svg" alt="a roll of paper" height="120px"></div>
+                <div class="tijera"><img src="img/scissor.svg" alt="scissors" height="120px"></div>
             </div>
             <div class="pelea">
                 <div class="weaponOne"></div>
