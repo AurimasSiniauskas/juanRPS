@@ -15,16 +15,16 @@ html {
     margin-top: -10px;
     margin-right: -10px;
     margin-left: -20px;
-    padding: 40px;
+    padding: 20px;
     background-color: rgb(10, 5, 24);
-    width: 100%;
+    width: 100vw;
     color: antiquewhite;   
 }
 
 .gameContainer {
     display: flex;
     flex-direction: column;
-    row-gap: 100px;    
+    row-gap: 50px;    
 }
 
 .armeria {
@@ -35,7 +35,7 @@ html {
 
 .armeria > div {
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 1px 1px 10px;
     background-color: rgb(69, 47, 121);
 }
@@ -75,7 +75,7 @@ p {
 
 .weaponChosen {
     position: relative;
-    right: 20px;
+    right: 0px;
     justify-content: center;
     align-items: center;
     top: 20px;
@@ -155,7 +155,7 @@ button {
         color: #fac650;
         font-size: medium;
     }
-    
+
 }
 
 
