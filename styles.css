@@ -81,3 +81,41 @@ p {
     top: 20px;
 }
 
+.coso {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 300px;
+    background-color: #222831;;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    border: none;
+    color: whitesmoke;
+    background-color: #393e46;;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+
+.coso > p {
+    font-size: xx-large;
+    color: #fac650;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+}
+
+.innactive {
+    display: none;
+    opacity: 0%;
+}
+
