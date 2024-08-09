@@ -30,6 +30,7 @@ html {
     display: flex;
     justify-content: space-between;
     column-gap: 40px;
+    
 }
 
 .armeria > div {
@@ -100,7 +101,6 @@ button {
     border-radius: 10px;
     padding: 10px 20px;
     text-align: center;
-
 }
 
 .coso > p {
@@ -116,7 +116,9 @@ button {
 }
 
 footer {
-    position: fixed;
+    margin-top: 20px;
+    padding: 20px;
+    position: absolute;
     bottom: 0;
     left: 35%;
     display: flex;
