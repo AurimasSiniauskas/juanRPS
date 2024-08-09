@@ -38,6 +38,7 @@ html {
     padding: 10px;
     box-shadow: 1px 1px 10px;
     background-color: rgb(69, 47, 121);
+    margin-bottom: 40px;
 }
 
 h1 {
@@ -48,11 +49,12 @@ h1 {
     font-size: larger;
   }
 
-h2 {
-    justify-content: space-between;
-    color: whitesmoke;
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 400;
+.juann {
+    margin: 20px;
+}
+
+.juannn {
+    margin: 20px;
 }
   
 .status {
