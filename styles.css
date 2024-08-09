@@ -120,7 +120,7 @@ button {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 35%;
     display: flex;
