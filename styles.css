@@ -118,7 +118,7 @@ button {
 footer {
     margin-top: 20px;
     padding: 20px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 35%;
     display: flex;
