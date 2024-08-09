@@ -119,3 +119,43 @@ button {
     opacity: 0%;
 }
 
+@media only screen and (max-width: 600px) {
+    .gameContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .status {
+        width: 200px;
+        margin-left: -130px;
+        gap: 20px;
+    }
+
+    .armeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .armeria > div > img {
+        height: 80px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    h1 {
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: #fac650;
+        font-size: medium;
+    }
+}
+
+
+
