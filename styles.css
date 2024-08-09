@@ -119,6 +119,20 @@ button {
     opacity: 0%;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    color: ;
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 600px) {
     .gameContainer {
         display: flex;
@@ -155,7 +169,6 @@ button {
         color: #fac650;
         font-size: medium;
     }
-
 }
 
 
