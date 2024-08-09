@@ -122,14 +122,9 @@ button {
 footer {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 35%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-    padding: 10px;
-    color: ;
+    color: #ddd;;
     font-size: 20px;
 }
 
