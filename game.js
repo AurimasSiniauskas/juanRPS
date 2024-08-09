@@ -236,7 +236,7 @@ function replayGame() {
 
 btn.addEventListener("click", () => {
     replayGame();
-})
+});
 
 
 
